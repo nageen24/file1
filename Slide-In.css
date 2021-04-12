@@ -1,0 +1,30 @@
+body{
+  background: dodgerblue;
+  background-image: linear-gradient(to right, blue, #302B);
+}
+
+
+
+
+.container{
+  text-align: center;
+  margin-top: 20%;
+
+}
+
+.slidein{
+  padding: 20px;
+  font-family: serif;
+  font-size: 30px;
+  border-radius: 25px;
+  animation: slide 7s ease-in;
+}
+
+@keyframes slide{
+  0%{
+    transform: skewX(20deg) translateY(-500px);
+  }
+  100%{
+    transform: skewX(50deg) ;
+  }
+}
